@@ -22,6 +22,7 @@ int count(int **lines,int place,int depth){
 
 int main(){
     int N,M;
+    
     //data input
     cin>>N;
     cin>>M;
