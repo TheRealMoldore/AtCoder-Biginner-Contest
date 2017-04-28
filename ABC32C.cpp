@@ -4,15 +4,14 @@ using namespace std;
 
 int main(){
     int n,k;
-    cin>>n>>k;
-    int s[Nmax];
+
+
     for(int i=0;i<n;i++){
-        cin>>s[i];
-        if(s[i]==0){
-            cout<<n<<endl;
+
+ 
             return 0;
         }
-    }
+
     int count=0;
     double tmp=1;
     for(int lp=0,rp=0;rp<n;){
